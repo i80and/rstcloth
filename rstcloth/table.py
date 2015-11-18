@@ -23,10 +23,7 @@ import textwrap
 
 import yaml
 
-try:
-    from rstcloth import RstCloth
-except ImportError:
-    from rstcloth.rstcloth import RstCloth
+from .rstcloth import RstCloth
 
 logger = logging.getLogger('rstcloth.table')
 

@@ -1,10 +1,9 @@
 from setuptools import setup
-import rstcloth
 
 setup(
     name='rstcloth',
     description='A simple Python API for generating RestructuredText.',
-    version=rstcloth.__version__,
+    version='0.2.6.dev0',
     author='Sam Kleinman',
     author_email='sam@tychoish.com',
     license='Apache',

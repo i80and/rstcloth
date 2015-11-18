@@ -12,4 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-__version__ = '0.2.6.dev0'
+import pkg_resources
+
+__version__ = pkg_resources.require('rstcloth')[0].version
